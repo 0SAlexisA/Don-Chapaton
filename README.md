@@ -5,7 +5,7 @@ direcciones de las sucursales.
 
 ## Nuestra imagen
 
-![Nuestra Mascota](https://github.com/0SAlexisA/Don-Chapaton/blob/main/imagenes_/Don%20chapaton.jpg)
+![Nuestra Mascota](https://github.com/0SAlexisA/Don-Chapaton/blob/main/imagenesmenu/Don%20chapaton.jpg)
 
 ## Nuestra Histioria
 Comienza con nuestros fundadores Don Manuel y Doña Rosa los cuales gustaban de cocinar hasta que 
@@ -22,11 +22,11 @@ creatividad y la pasión por innovar.
 ## Colaboradores:
 | Nombres      | Actividades          |
 |--------------|-------------------|
-| Ana Guzmán   | Descripción aquí. |
-| Daniel Gonzales| Cómo usarlo aquí. |
+| Ana Guzmán   | Implementación de la API. |
+| Daniel Gonzales| Desarrollador de la página web|
 | Sebastián Ramos | Descripción aquí. |
-|Alexis Santiago| Cómo usarlo aquí. |
-|Paulina Santillan| Descripción aquí. |
+|Alexis Santiago| Desarrollador de la página web|
+|Paulina Santillan| Implementación de la API. |
 
 
 ## Diccionario de Datos:
