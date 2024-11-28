@@ -22,6 +22,7 @@ creatividad y la pasión por innovar.
 ## Colaboradores:
 | Nombres      | Actividades          |
 |--------------|-------------------|
+|Ariel Bueno | Documentación |
 | Ana Guzmán   | Implementación de la API. |
 | Daniel Gonzales| Desarrollador de la página web|
 | Sebastián Ramos | Documentación y desarrollo de la API. |
