@@ -18,9 +18,19 @@ ingredientes especiales: aceitunas, hierbas aromáticas, tomate seco y queso, qu
 creatividad y la pasión por innovar.
 
 ## Colaboradores:
+| Nombres      | Actividades          |
+|--------------|-------------------|
+| Ana Guzmán   | Descripción aquí. |
+| Daniel Gonzales| Cómo usarlo aquí. |
+| Sebastián Ramos | Descripción aquí. |
+|Alexis Santiago| Cómo usarlo aquí. |
+|Paulina Santillan| Descripción aquí. |
+
+
+
 Ana Guzmán
 Daniel Gonzales
-Sebatián Ramos 
+Sebastián Ramos 
 Alexis Santiago
 Paulina Santillan
 
