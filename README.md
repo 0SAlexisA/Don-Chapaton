@@ -3,6 +3,8 @@ Don Chapaton es la pagina que podrá ayudar a las Micro empresas para poder mane
 de los clientes, como de los pedidos que solicitan en esta se le muestra al usuario el menú y las
 direcciones de las sucursales.
 
+
+
 ## Nuestra Histioria
 Comienza con nuestros fundadores Don Manuel y Doña Rosa los cuales gustaban de cocinar hasta que 
 un día lograron crear una chapata como ninguna otra. Era crujiente por fuera, aireada por dentro 
@@ -16,7 +18,11 @@ ingredientes especiales: aceitunas, hierbas aromáticas, tomate seco y queso, qu
 creatividad y la pasión por innovar.
 
 ##Colaboradores:
-
+Ana Guzmán
+Daniel Gonzales
+Sebatián Ramos 
+Alexis Santiago
+Paulina Santillan
 
 ## Diccionario de Datos:
 https://docs.google.com/document/d/1xSV-YnJf2vyLUVZ_2ulyTpNYPj4FsZ4ZMDscZUTblnw/edit?usp=sharing
