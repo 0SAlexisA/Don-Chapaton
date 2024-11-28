@@ -17,7 +17,7 @@ chapata. Los Gonzales Portilla vendían no solo chapatas tradicionales, sino tam
 ingredientes especiales: aceitunas, hierbas aromáticas, tomate seco y queso, que reflejaban la 
 creatividad y la pasión por innovar.
 
-##Colaboradores:
+## Colaboradores:
 Ana Guzmán
 Daniel Gonzales
 Sebatián Ramos 
