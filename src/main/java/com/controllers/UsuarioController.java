@@ -1,4 +1,4 @@
-package com.example.api.controllers;
+package com.controllers;
 
 import com.example.api.models.Usuario;
 import com.github.javafaker.Faker;
