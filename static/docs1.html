@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sucursales - Don Chapato</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+        header {
+            background-color: #ff6347;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        h1 {
+            font-size: 2.5em;
+            margin: 0;
+        }
+        nav {
+            background-color: #ff6347;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-size: 1.1em;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .container {
+            padding: 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        .section-title {
+            font-size: 2em;
+            color: #ff6347;
+            margin-bottom: 15px;
+        }
+        .branch-list {
+            list-style: none;
+            padding: 0;
+        }
+        .branch-item {
+            display: flex;
+            align-items: center;
+            background-color: #fff;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            margin-bottom: 20px;
+            padding: 15px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        .branch-item img {
+            max-width: 150px;
+            max-height: 150px;
+            margin-right: 20px;
+            border-radius: 10px;
+        }
+        .branch-details {
+            flex: 1;
+        }
+        .branch-name {
+            font-size: 1.5em;
+            color: #333;
+            margin: 0 0 10px;
+        }
+        .branch-link {
+            color: #ff6347;
+            text-decoration: none;
+            font-size: 1.1em;
+        }
+        .branch-link:hover {
+            text-decoration: underline;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 15px 0;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Sucursales - Don Chapato</h1>
+        <p>Encuentra tu sucursal más cercana y visítanos hoy mismo.</p>
+    </header>
+    <nav>
+        <a href="index.html">Inicio</a>
+        <a href="menu.html">Menú</a>
+        <a href="docs1.html">Sucursales</a>
+        <a href="usuarios.html">Usuarios</a>
+    </nav>
+    <div class="container">
+        <h2 class="section-title">Nuestras Sucursales</h2>
+        <ul class="branch-list">
+            <!-- Ejemplo de una sucursal -->
+            <li class="branch-item">
+                <img src="impag/sucursal1.jpg" alt="Sucursal Narvarte">
+                <div class="branch-details">
+                    <h3 class="branch-name">Sucursal Narvarte</h3>
+                    <a href="https://goo.gl/maps/abcd1234" target="_blank" class="branch-link">Ver en Google Maps</a>
+                </div>
+            </li>
+            <li class="branch-item">
+                <img src="impag/sucursal2.jpg" alt="Sucursal Polanco">
+                <div class="branch-details">
+                    <h3 class="branch-name">Sucursal Polanco</h3>
+                    <a href="https://goo.gl/maps/abcd5678" target="_blank" class="branch-link">Ver en Google Maps</a>
+                </div>
+            </li>
+            <!-- Agrega más sucursales siguiendo este formato -->
+        </ul>
+    </div>
+    <footer>
+        <p>&copy; 2024 Don Chapato | Hecho con 🍞 y ❤️</p>
+    </footer>
+</body>
+</html>
