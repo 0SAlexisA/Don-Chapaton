@@ -5,7 +5,7 @@ direcciones de las sucursales.
 
 ## Nuestra imagen
 
-![Nuestra Mascota](https://github.com/0SAlexisA/Don-Chapaton/blob/main/imagenesmenu/Don%20chapaton.jpg)
+![Nuestra Mascota](https://github.com/0SAlexisA/Don-Chapaton/blob/main/static/imagenesmenu/Don%20chapaton.jpg)
 
 ## Nuestra Histioria
 Comienza con nuestros fundadores Don Manuel y Doña Rosa los cuales gustaban de cocinar hasta que 
