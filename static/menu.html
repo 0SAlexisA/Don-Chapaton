@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menú - Don Chapato</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+
+        header {
+            background-color: #ff6347;
+            color: white;
+            padding: 20px;
+        }
+
+        h1 {
+            font-size: 2.5em;
+            margin: 0;
+            animation: tracking-in-expand-fwd 1s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+        }
+
+        .menu-section {
+            margin: 20px 0;
+        }
+
+        .menu-section h2 {
+            color: #ff6347;
+            font-size: 2em;
+            margin-bottom: 20px;
+        }
+
+        .menu-container {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+        .menu-card {
+            background-color: white;
+            border: 1px solid #ddd;
+            padding: 20px;
+            width: 300px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            text-align: center;
+            animation: slide-in-bck-center 0.7s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+        }
+
+        .menu-card img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 10px;
+            animation: kenburns-left 5s ease-out infinite alternate;
+        }
+
+        .menu-card h3 {
+            margin-top: 10px;
+            font-size: 1.5em;
+            color: #333;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 15px 0;
+            margin-top: 20px;
+        }
+
+        /* Animations */
+        @keyframes tracking-in-expand-fwd {
+            0% {
+                letter-spacing: -0.5em;
+                transform: translateZ(-700px);
+                opacity: 0;
+            }
+            40% {
+                opacity: 0.6;
+            }
+            100% {
+                transform: translateZ(0);
+                opacity: 1;
+            }
+        }
+
+        @keyframes slide-in-bck-center {
+            0% {
+                transform: translateZ(600px);
+                opacity: 0;
+            }
+            100% {
+                transform: translateZ(0);
+                opacity: 1;
+            }
+        }
+
+        @keyframes kenburns-left {
+            0% {
+                transform: scale(1) translate(0, 0);
+                transform-origin: 16% 50%;
+            }
+            100% {
+                transform: scale(1.25) translate(-20px, 15px);
+                transform-origin: left;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Menú de Chapatas</h1>
+    </header>
+
+    <div class="menu-section">
+        <h2>Clásicas</h2>
+        <div class="menu-container">
+            <div class="menu-card">
+                <img src="imagenesmenu/TresQ.jpeg" alt="Tres Quesos">
+                <h3>Tres Quesos</h3>
+            </div>
+            <div class="menu-card">
+                <img src="imagenesmenu/Pep.jpeg" alt="Pechuga de Pavo">
+                <h3>Pechuga de Pavo</h3>
+            </div>
+            <div class="menu-card">
+                <img src="imagenesmenu/JaP.jpeg" alt="Jamón York">
+                <h3>Jamón York</h3>
+            </div>
+        </div>
+    </div>
+
+    <div class="menu-section">
+        <h2>Especiales</h2>
+        <div class="menu-container">
+            <div class="menu-card">
+                <img src="imagenesmenu/Haw.jpeg" alt="Hawaiana">
+                <h3>Hawaiana</h3>
+            </div>
+            <div class="menu-card">
+                <img src="imagenesmenu/Premi.jpg" alt="Premium">
+                <h3>Premium</h3>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Don Chapato | Tradición y sabor</p>
+    </footer>
+</body>
+</html>
