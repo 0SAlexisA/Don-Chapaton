@@ -3,6 +3,7 @@ Don Chapaton es la pagina que podrá ayudar a las Micro empresas para poder mane
 de los clientes, como de los pedidos que solicitan en esta se le muestra al usuario el menú y las
 direcciones de las sucursales.
 
+##Nuestra imagen
 ![Nuestra Mascota](https://github.com/0SAlexisA/Don-Chapaton/blob/main/imagenes_/Don%20chapaton.jpg)
 
 ## Nuestra Histioria
@@ -26,13 +27,6 @@ creatividad y la pasión por innovar.
 |Alexis Santiago| Cómo usarlo aquí. |
 |Paulina Santillan| Descripción aquí. |
 
-
-
-Ana Guzmán
-Daniel Gonzales
-Sebastián Ramos 
-Alexis Santiago
-Paulina Santillan
 
 ## Diccionario de Datos:
 https://docs.google.com/document/d/1xSV-YnJf2vyLUVZ_2ulyTpNYPj4FsZ4ZMDscZUTblnw/edit?usp=sharing
