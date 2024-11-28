@@ -3,7 +3,7 @@ Don Chapaton es la pagina que podrá ayudar a las Micro empresas para poder mane
 de los clientes, como de los pedidos que solicitan en esta se le muestra al usuario el menú y las
 direcciones de las sucursales.
 
-![Texto alternativo](imagenes_/Don chapaton.png)
+![Mi Foto](imagenes_/Don chapaton.jpg)
 
 ## Nuestra Histioria
 Comienza con nuestros fundadores Don Manuel y Doña Rosa los cuales gustaban de cocinar hasta que 
