@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Don Chapato</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+        header {
+            background-color: #ff6347;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        h1 {
+            font-size: 2.5em;
+            margin: 0;
+        }
+        nav {
+            text-align: center;
+            margin-top: 20px;
+        }
+        nav a {
+            color: #ff6347;
+            margin: 0 15px;
+            text-decoration: none;
+            font-size: 1.1em;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .container {
+            padding: 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        .section-title {
+            font-size: 2em;
+            color: #ff6347;
+            margin-bottom: 15px;
+        }
+        .api-details {
+            background-color: #ffffff;
+            border: 1px solid #ddd;
+            padding: 15px;
+            margin-bottom: 20px;
+        }
+        .api-details h2 {
+            font-size: 1.5em;
+            color: #333;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 15px 0;
+            position: relative;
+            width: 100%;
+        }
+        #userList {
+            margin-top: 20px;
+            padding: 0;
+            list-style-type: none;
+        }
+        #userList li {
+            background-color: #fff;
+            border: 1px solid #ddd;
+            padding: 10px;
+            margin: 5px 0;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Don Chapato</h1>
+        <h2>Tradición, calidad y sabor en cada bocado.</h2>
+        <p>Explora el verdadero sabor de las Chapatas.</p>
+    </header>
+    <nav>
+        <a href="#intro">Nuestra Historia</a>
+        <a href="menu.html" target="_blank">Menú</a>
+        <a href="#docs">Nuestras Sucursales</a>
+        <a href="#usuarios">Usuarios</a>
+    </nav>    
+
+    <div class="container">
+        <!-- Sección Menú y otras -->
+        <!-- Aquí puedes incluir las secciones existentes del primer HTML -->
+
+        <!-- Sección Usuarios -->
+        <section id="usuarios">
+            <h2 class="section-title">Usuarios Inscritos</h2>
+            <button id="loadUsers" class="btn" style="background-color: #ff6347; color: white; border: none; padding: 10px 20px; cursor: pointer;">Cargar Usuarios</button>
+            <ul id="userList" class="list-group"></ul>
+        </section>
+    </div>
+  
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3763.283348283455!2d-99.16137312405844!3d19.400159641714623!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1ff10fbcec485%3A0x54e3a25b05451f01!2sEnrique%20R%C3%A9bsamen%20203%2C%20Narvarte%20Poniente%2C%20Benito%20Ju%C3%A1rez%2C%2003020%20Ciudad%20de%20M%C3%A9xico%2C%20CDMX!5e0!3m2!1ses-419!2smx!4v1732763130845!5m2!1ses-419!2smx" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+
+
+    <footer>
+        <p>&copy; 2024 Don Chapato | Hecho con 🍞 y ❤️</p>
+    </footer>
+
+    <script>
+        document.getElementById('loadUsers').addEventListener('click', async () => {
+            try {
+                const response = await fetch('/usuarios');
+                const users = await response.json();
+                const userList = document.getElementById('userList');
+                userList.innerHTML = '';
+                users.forEach(user => {
+                    const li = document.createElement('li');
+                    li.textContent = `${user.nombre} - ${user.instagram} - ${user.telefono}`;
+                    userList.appendChild(li);
+                });
+            } catch (error) {
+                console.error('Error al cargar usuarios:', error);
+            }
+        });
+    </script>
+</body>
+</html>
