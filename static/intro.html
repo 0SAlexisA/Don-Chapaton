@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Don Chapato</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+        header {
+            background-color: #ff6347;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        h1 {
+            font-size: 2.5em;
+            margin: 0;
+        }
+        nav {
+            text-align: center;
+            margin-top: 20px;
+        }
+        nav a {
+            color: #ff6347;
+            margin: 0 15px;
+            text-decoration: none;
+            font-size: 1.1em;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .container {
+            padding: 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        .section-title {
+            font-size: 2em;
+            color: #ff6347;
+            margin-bottom: 15px;
+        }
+        .image-container {
+            text-align: center;
+            margin-top: 20px;
+        }
+        .image-container img {
+            max-width: 50%;
+            height: auto;
+            cursor: pointer;
+            border: 2px solid #ddd;
+            border-radius: 10px;
+            transition: transform 0.3s;
+        }
+        .image-container img:hover {
+            transform: scale(1.05);
+        }
+        #imageInfo {
+            margin-top: 20px;
+            font-size: 1.2em;
+            color: #333;
+            text-align: center;
+            display: none;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 15px 0;
+            position: relative;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Don Chapato</h1>
+        <h2>Tradición, calidad y sabor en cada bocado.</h2>
+        <p>Explora el verdadero sabor de las Chapatas.</p>
+    </header>
+    <nav>
+        <a href="intro.html">Nuestra Historia</a>
+        <a href="menu.html" target="_blank">Menú</a>
+        <a href="docs1.html">Nuestras Sucursales</a>
+        <a href="#usuarios">Usuarios</a>
+    </nav>    
+
+    <div class="container">
+        <section id="intro">
+            <h2 class="section-title">Nuestra Historia</h2>
+            <div class="image-container">
+                <img id="historyImage" src="impag/toscana.jpg" alt="Nuestra Historia">
+            </div>
+            <div id="imageInfo">
+                En Don Chapato, comenzamos nuestra historia hace más de dos años, con la misión de traer la mejor calidad y sabor a cada cliente. Nuestra Mision es siempre servir un alimento fresco de buena calidad, pero sobre todo que sea un deleite digno de nuestros clientes. ¡Gracias por ser parte de nuestra aventura!
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Don Chapato | Hecho con 🍞 y ❤️</p>
+    </footer>
+
+    <script>
+        const historyImage = document.getElementById('historyImage');
+        const imageInfo = document.getElementById('imageInfo');
+
+        historyImage.addEventListener('click', () => {
+            imageInfo.style.display = imageInfo.style.display === 'none' || imageInfo.style.display === '' ? 'block' : 'none';
+        });
+    </script>
+</body>
+</html>
