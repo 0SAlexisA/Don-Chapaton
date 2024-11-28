@@ -1,116 +1,125 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Don Chapato</title>
+    <meta charset="UTF-8"> <!-- Codificación de caracteres en UTF-8 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Escala para dispositivos móviles -->
+    <title>Don Chapato</title> <!-- Título de la página -->
     <style>
+        /* Estilo global del cuerpo */
         body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f4f4f9;
-            color: #333;
+            font-family: Arial, sans-serif; /* Fuente principal */
+            margin: 0; /* Elimina márgenes */
+            padding: 0; /* Elimina padding */
+            background-color: #f4f4f9; /* Color de fondo */
+            color: #333; /* Color del texto */
         }
         header {
-            background-color: #ff6347;
-            color: white;
-            padding: 20px;
-            text-align: center;
+            background-color: #ff6347; /* Color de fondo del encabezado */
+            color: white; /* Color del texto */
+            padding: 20px; /* Espaciado interno */
+            text-align: center; /* Centra el contenido */
         }
         h1 {
-            font-size: 2.5em;
-            margin: 0;
+            font-size: 2.5em; /* Tamaño del título principal */
+            margin: 0; /* Elimina margen */
         }
         nav {
-            text-align: center;
-            margin-top: 20px;
+            text-align: center; /* Centra los enlaces de navegación */
+            margin-top: 20px; /* Espaciado superior */
         }
         nav a {
-            color: #ff6347;
-            margin: 0 15px;
-            text-decoration: none;
-            font-size: 1.1em;
+            color: #ff6347; /* Color de los enlaces */
+            margin: 0 15px; /* Espaciado entre enlaces */
+            text-decoration: none; /* Elimina subrayado */
+            font-size: 1.1em; /* Tamaño de fuente */
         }
         nav a:hover {
-            text-decoration: underline;
+            text-decoration: underline; /* Subraya los enlaces al pasar el cursor */
         }
         .container {
-            padding: 20px;
-            max-width: 1200px;
-            margin: 0 auto;
+            padding: 20px; /* Espaciado interno */
+            max-width: 1200px; /* Ancho máximo del contenido */
+            margin: 0 auto; /* Centra el contenido */
         }
         .section-title {
-            font-size: 2em;
-            color: #ff6347;
-            margin-bottom: 15px;
+            font-size: 2em; /* Tamaño del título de sección */
+            color: #ff6347; /* Color del texto */
+            margin-bottom: 15px; /* Margen inferior */
         }
         .image-container {
-            text-align: center;
-            margin-top: 20px;
+            text-align: center; /* Centra la imagen */
+            margin-top: 20px; /* Espaciado superior */
         }
         .image-container img {
-            max-width: 50%;
-            height: auto;
-            cursor: pointer;
-            border: 2px solid #ddd;
-            border-radius: 10px;
-            transition: transform 0.3s;
+            max-width: 50%; /* Ajusta el tamaño máximo de la imagen */
+            height: auto; /* Mantiene la proporción */
+            cursor: pointer; /* Cambia el cursor a "puntero" */
+            border: 2px solid #ddd; /* Borde alrededor de la imagen */
+            border-radius: 10px; /* Bordes redondeados */
+            transition: transform 0.3s; /* Animación al escalar */
         }
         .image-container img:hover {
-            transform: scale(1.05);
+            transform: scale(1.05); /* Agranda la imagen al pasar el cursor */
         }
         #imageInfo {
-            margin-top: 20px;
-            font-size: 1.2em;
-            color: #333;
-            text-align: center;
-            display: none;
+            margin-top: 20px; /* Espaciado superior */
+            font-size: 1.2em; /* Tamaño del texto */
+            color: #333; /* Color del texto */
+            text-align: center; /* Centra el texto */
+            display: none; /* Oculta inicialmente */
         }
         footer {
-            background-color: #333;
-            color: white;
-            text-align: center;
-            padding: 15px 0;
-            position: relative;
-            width: 100%;
+            background-color: #333; /* Color de fondo del pie de página */
+            color: white; /* Color del texto */
+            text-align: center; /* Centra el contenido */
+            padding: 15px 0; /* Espaciado interno */
+            position: relative; /* Posición relativa */
+            width: 100%; /* Ocupa todo el ancho */
         }
     </style>
 </head>
 <body>
+    <!-- Encabezado principal -->
     <header>
-        <h1>Don Chapato</h1>
-        <h2>Tradición, calidad y sabor en cada bocado.</h2>
-        <p>Explora el verdadero sabor de las Chapatas.</p>
+        <h1>Don Chapato</h1> <!-- Título principal -->
+        <h2>Tradición, calidad y sabor en cada bocado.</h2> <!-- Subtítulo -->
+        <p>Explora el verdadero sabor de las Chapatas.</p> <!-- Descripción -->
     </header>
+    <!-- Navegación principal -->
     <nav>
-        <a href="intro.html">Nuestra Historia</a>
-        <a href="menu.html" target="_blank">Menú</a>
-        <a href="docs1.html">Nuestras Sucursales</a>
-        <a href="#usuarios">Usuarios</a>
+        <a href="intro.html">Nuestra Historia</a> <!-- Enlace a la historia -->
+        <a href="menu.html" target="_blank">Menú</a> <!-- Enlace al menú en nueva pestaña -->
+        <a href="docs1.html">Nuestras Sucursales</a>  <!-- Enlace a sucursales -->
+        <a href="#usuarios">Usuarios</a> <!-- Enlace a la sección de usuarios -->
     </nav>    
 
+    <!-- Contenedor principal -->
     <div class="container">
-        <section id="intro">
-            <h2 class="section-title">Nuestra Historia</h2>
+        <section id="intro"> <!-- Sección de introducción -->
+            <h2 class="section-title">Nuestra Historia</h2>  <!-- Título de sección -->
             <div class="image-container">
-                <img id="historyImage" src="impag/toscana.jpg" alt="Nuestra Historia">
+                <img id="historyImage" src="impag/toscana.jpg" alt="Nuestra Historia"> <!-- Imagen con interacción -->
             </div>
             <div id="imageInfo">
+                <!-- Descripción que se muestra al hacer clic en la imagen -->
                 En Don Chapato, comenzamos nuestra historia hace más de dos años, con la misión de traer la mejor calidad y sabor a cada cliente. Nuestra Mision es siempre servir un alimento fresco de buena calidad, pero sobre todo que sea un deleite digno de nuestros clientes. ¡Gracias por ser parte de nuestra aventura!
             </div>
         </section>
     </div>
 
+     <!-- Pie de página -->
     <footer>
-        <p>&copy; 2024 Don Chapato | Hecho con 🍞 y ❤️</p>
+        <p>&copy; 2024 Don Chapato | Hecho con 🍞 y ❤️</p> <!-- Información de copyright -->
     </footer>
 
+     <!-- Script para interacción con la imagen -->
     <script>
-        const historyImage = document.getElementById('historyImage');
-        const imageInfo = document.getElementById('imageInfo');
+        const historyImage = document.getElementById('historyImage'); // Obtiene la imagen
+        const imageInfo = document.getElementById('imageInfo'); // Obtiene el texto de informacion
 
+        // Agrega un evento al hacer clic en la imagen
         historyImage.addEventListener('click', () => {
+            // Alterna entre mostrar y ocultar el texto
             imageInfo.style.display = imageInfo.style.display === 'none' || imageInfo.style.display === '' ? 'block' : 'none';
         });
     </script>
