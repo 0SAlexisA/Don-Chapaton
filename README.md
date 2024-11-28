@@ -8,16 +8,9 @@ direcciones de las sucursales.
 ![Nuestra Mascota](https://github.com/0SAlexisA/Don-Chapaton/blob/main/static/imagenesmenu/Don%20chapaton.jpg)
 
 ## Nuestra Histioria
-Comienza con nuestros fundadores Don Manuel y Doña Rosa los cuales gustaban de cocinar hasta que 
-un día lograron crear una chapata como ninguna otra. Era crujiente por fuera, aireada por dentro 
-y tenía un sabor tan delicioso que parecía derretirse en la boca. Decidieron bautizarla como Don 
-Chapatón, un nombre que reflejaba el cariño, el esfuerzo y la tradición familiar que había dado 
-vida a ese pan tan especial.Don Manuel, junto con su esposa, abrieron una pequeña tienda en el 
-centro del pueblo. A pesar de ser un comienzo modesto, pronto comenzaron a recibir visitas no 
-solo de los locales, sino también de turistas que pasaban por el pueblo y se enamoraban de la 
-chapata. Los Gonzales Portilla vendían no solo chapatas tradicionales, sino también versiones con
-ingredientes especiales: aceitunas, hierbas aromáticas, tomate seco y queso, que reflejaban la 
-creatividad y la pasión por innovar.
+En Don Chapato, comenzamos nuestra historia hace más de dos años, con la misión de traer la mejor 
+calidad y sabor a cada cliente. Nuestra Mision es siempre servir un alimento fresco de buena calidad,
+pero sobre todo que sea un deleite digno de nuestros clientes. ¡Gracias por ser parte de nuestra aventura!
 
 ## Colaboradores:
 | Nombres      | Actividades          |
