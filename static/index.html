@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Don Chapato</title>
+    <meta charset="UTF-8"> <!-- Define la codificacion de caracteres -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Configura la visualizacion responsiva -->
+    <title>Don Chapato</title> <!-- Titulo del sitio web -->
     <style>
+         /* Estilos generales del sitio */
         body {
             font-family: Arial, sans-serif;
             margin: 0;
@@ -13,13 +14,13 @@
             color: #333;
         }
         header {
-            background-color: #ff6347;
-            color: white;
+            background-color: #ff6347; /* Color de fondo del encabezado */
+            color: white; /* Color del texto en el encabezado */
             padding: 20px;
             text-align: center;
         }
         h1 {
-            font-size: 2.5em;
+            font-size: 2.5em; /* Tamano de la fuente del titulo principal */
             margin: 0;
         }
         nav {
@@ -27,18 +28,18 @@
             margin-top: 20px;
         }
         nav a {
-            color: #ff6347;
+            color: #ff6347; /* Color de los enlaces en la barra de navegacion */
             margin: 0 15px;
             text-decoration: none;
             font-size: 1.1em;
         }
         nav a:hover {
-            text-decoration: underline;
+            text-decoration: underline; /* Subrayado al pasar el mouse */
         }
         .container {
             padding: 20px;
             max-width: 1200px;
-            margin: 0 auto;
+            margin: 0 auto; /* Centra el contenido horizontalmente */
         }
         .section-title {
             font-size: 2em;
@@ -46,7 +47,7 @@
             margin-bottom: 15px;
         }
         .api-details {
-            background-color: #ffffff;
+            background-color: #ffffff; /* Fondo blanco para detalles API */
             border: 1px solid #ddd;
             padding: 15px;
             margin-bottom: 20px;
@@ -56,8 +57,8 @@
             color: #333;
         }
         footer {
-            background-color: #333;
-            color: white;
+            background-color: #333; /* Fondo oscuro para el pie de pagina */
+            color: white; /* Texto blanco en el pie de pagina */
             text-align: center;
             padding: 15px 0;
             position: relative;
@@ -66,67 +67,71 @@
         #userList {
             margin-top: 20px;
             padding: 0;
-            list-style-type: none;
+            list-style-type: none; /* Sin vinetas en la lista */
         }
         #userList li {
             background-color: #fff;
             border: 1px solid #ddd;
             padding: 10px;
             margin: 5px 0;
-            border-radius: 5px;
+            border-radius: 5px; /* Bordes redondeados */
         }
     </style>
 </head>
 <body>
+    <!-- Encabezado del sitio web -->
     <header>
-        <h1>Don Chapato</h1>
-        <h2>Tradición, calidad y sabor en cada bocado.</h2>
-        <p>Explora el verdadero sabor de las Chapatas.</p>
+        <h1>Don Chapato</h1> <!-- Titulo del negocio -->
+        <h2>Tradición, calidad y sabor en cada bocado.</h2> <!-- Subtitulo atractivo -->
+        <p>Explora el verdadero sabor de las Chapatas.</p> <!-- Mensaje descriptivo -->
     </header>
+    <!-- Barra de navegacion con enlaces -->
     <nav>
         <a href="#intro">Nuestra Historia</a>
-        <a href="menu.html" target="_blank">Menú</a>
+        <a href="menu.html" target="_blank">Menú</a> <!-- Abre el menu en una nueva pestaña -->
         <a href="#docs">Nuestras Sucursales</a>
         <a href="#usuarios">Usuarios</a>
     </nav>    
 
+    <!-- Contenedor principal -->
     <div class="container">
         <!-- Sección Menú y otras -->
-        <!-- Aquí puedes incluir las secciones existentes del primer HTML -->
+        
 
         <!-- Sección Usuarios -->
         <section id="usuarios">
-            <h2 class="section-title">Usuarios Inscritos</h2>
-            <button id="loadUsers" class="btn" style="background-color: #ff6347; color: white; border: none; padding: 10px 20px; cursor: pointer;">Cargar Usuarios</button>
-            <ul id="userList" class="list-group"></ul>
+            <h2 class="section-title">Usuarios Inscritos</h2> <!-- Titulo de la seccion -->
+            <button id="loadUsers" class="btn" style="background-color: #ff6347; color: white; border: none; padding: 10px 20px; cursor: pointer;">Cargar Usuarios</button> <!-- Boton para cargar usuarios -->
+            <ul id="userList" class="list-group"></ul> <!-- Lista dinamica para mostrar usuarios -->
         </section>
     </div>
-  
+
+  <!-- Mapa embebido de Google Maps -->
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3763.283348283455!2d-99.16137312405844!3d19.400159641714623!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1ff10fbcec485%3A0x54e3a25b05451f01!2sEnrique%20R%C3%A9bsamen%20203%2C%20Narvarte%20Poniente%2C%20Benito%20Ju%C3%A1rez%2C%2003020%20Ciudad%20de%20M%C3%A9xico%2C%20CDMX!5e0!3m2!1ses-419!2smx!4v1732763130845!5m2!1ses-419!2smx" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
 
-
+<!-- Pie de pagina -->
     <footer>
-        <p>&copy; 2024 Don Chapato | Hecho con 🍞 y ❤️</p>
+        <p>&copy; 2024 Don Chapato | Hecho con 🍞 y ❤️</p> <!-- Mensaje del pie de pagina -->
     </footer>
 
+     <!-- Script para manejar la interaccion de la lista de usuarios -->
     <script>
         document.getElementById('loadUsers').addEventListener('click', async () => {
             try {
-                const response = await fetch('/usuarios');
-                const users = await response.json();
+                const response = await fetch('/usuarios'); // Solicita los datos de usuarios al servidor
+                const users = await response.json(); // Convierte la respuesta a JSON
                 const userList = document.getElementById('userList');
-                userList.innerHTML = '';
+                userList.innerHTML = ''; // Limpia la lista antes de llenarla
                 users.forEach(user => {
-                    const li = document.createElement('li');
-                    li.textContent = `${user.nombre} - ${user.instagram} - ${user.telefono}`;
-                    userList.appendChild(li);
+                    const li = document.createElement('li'); // Crea un elemento de lista para cada usuario
+                    li.textContent = `${user.nombre} - ${user.instagram} - ${user.telefono}`; // Anade los datos del usuario
+                    userList.appendChild(li); // Inserta el elemento en la lista
                 });
             } catch (error) {
-                console.error('Error al cargar usuarios:', error);
+                console.error('Error al cargar usuarios:', error); // Manejo de errores
             }
         });
     </script>
 </body>
 </html>
-
