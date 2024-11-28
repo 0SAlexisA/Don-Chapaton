@@ -15,7 +15,6 @@ pero sobre todo que sea un deleite digno de nuestros clientes. ¡Gracias por ser
 ## Colaboradores:
 | Nombres      | Actividades          |
 |--------------|-------------------|
-|Ariel Bueno | Documentación |
 | Ana Guzmán   | Implementación de la API. |
 | Daniel Gonzales| Desarrollador de la página web|
 | Sebastián Ramos | Documentación y desarrollo de la API. |
