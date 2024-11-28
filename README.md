@@ -24,7 +24,7 @@ creatividad y la pasión por innovar.
 |--------------|-------------------|
 | Ana Guzmán   | Implementación de la API. |
 | Daniel Gonzales| Desarrollador de la página web|
-| Sebastián Ramos | Documentación. |
+| Sebastián Ramos | Documentación y desarrollo de la API. |
 |Alexis Santiago| Desarrollador de la página web|
 |Paulina Santillan| Implementación de la API. |
 
